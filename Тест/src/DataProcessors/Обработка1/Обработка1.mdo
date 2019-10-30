@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77d7ded3-6f48-48c4-88fa-d24b547415fe">
+  <producedTypes>
+    <objectType typeId="aa40bfd8-4179-416b-8f81-eb4727a5562b" valueTypeId="f45da3fc-09e7-4ec0-823c-19a6f637b16a"/>
+    <managerType typeId="6f479dd7-67be-4788-8af0-2149def33161" valueTypeId="06185f0b-ba2e-442c-8e9e-dba530c2a728"/>
+  </producedTypes>
+  <name>Обработка1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Обработка1.Form.Форма</defaultForm>
+  <attributes uuid="b3bdc1ab-3b51-415e-8618-ae1689acad81">
+    <name>Реквизит1</name>
+    <type>
+      <types>CatalogRef.Тест</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1efb6e24-0fda-4e62-8223-899cc3527d96">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

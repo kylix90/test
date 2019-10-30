@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aafe1cf2-949e-4b32-ad07-039d155523cb">
+  <producedTypes>
+    <objectType typeId="efcdb2db-5ca2-451d-b9ad-c59b1c0f1f31" valueTypeId="2e35ea0e-5173-41b5-8fb0-49a940c54d41"/>
+    <refType typeId="e6dc6b36-2207-43b3-a63b-4c16dede86e1" valueTypeId="593237b8-07fc-40b2-a323-7140e4dc1a66"/>
+    <selectionType typeId="687e8ac6-2f4f-4baf-9a42-501304527713" valueTypeId="bbc92e32-413d-4467-8ae5-06c12a106926"/>
+    <listType typeId="506ed356-6ba2-475d-bdaa-720a7f55ecd3" valueTypeId="5bd8d240-67c7-48aa-8ef7-f9b5051d909b"/>
+    <managerType typeId="18082be3-ea38-463b-b842-3add3f7d4cc4" valueTypeId="cd85d810-36b6-44d0-84ba-1b3418b41677"/>
+  </producedTypes>
+  <name>Тест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Тест.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Тест.StandardAttribute.Code</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
